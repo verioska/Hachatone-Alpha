@@ -1,4 +1,4 @@
-function register(){
+function enter(){
 
     const app = firebase.app();
     
