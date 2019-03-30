@@ -3,16 +3,18 @@
     --input-padding-y: .75rem;
 }
 
-  #body{
+    #body{
       background-color: #FCFCFC;
-  }
+    }
 
-  #job, #login{
+    #job, #login, #start{
       display:none;
-  }
+    }
 
   
   /*pantalla de inicio*/
+
+   
 
     #imgStart{
         width: 100%;
@@ -37,15 +39,15 @@
         color: #63686E;
         } 
 
-        #womanBtn{
+    #womanBtn{
 
         background-color: #4E42B0;
         border-radius: 35px;
 
         color: #FFFFFF;
-        }
+    }
 
-        #companyBtn, #womanBtn{
+    #companyBtn, #womanBtn{
         width: 22rem;
         height: 6rem;
         font-family: "Roboto";
@@ -58,12 +60,12 @@
         justify-content: center;
         margin: 0 auto;
         margin-top: 2rem;
-        }
+    }
 
 
 
 
-    /*Login section*/
+        /*Login section*/
     #login {
     background-color: #5E4FD6;
     background-attachment: fixed;
@@ -127,6 +129,64 @@
     #text2{
       color:#1FE5BD; 
       
+    }
+
+    /*Detalle Oferta Section*/
+
+    #title2{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.87);
+        margin-top: 5%;
+    }
+
+    #detalleImg{
+        width: 100%;
+    }
+    
+    #charge{
+        font-size: 50px;
+        font-family: "Roboto";
+        color:  rgba(0, 0, 0, 0.543846);
+        text-align: center;
+        margin-top:10px;
+    }
+    #detail{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 20px;
+        color:rgba(0, 0, 0, 0.543846);
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #detail2{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 20px;
+        color:rgba(0, 0, 0, 0.543846);
+        text-align: center;
+    }
+
+    a#moreInfo{
+        color:#1FE5BD;
+        margin-top: 20px;
+        margin-left:320px;
+        font-size: 25px;
+    }
+    
+    #team{
+        width: 50rem;
+        height: 4.5rem;  
+        font-size:35px;
+        background-color: #4E42B0;
+        border-radius: 35px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-left: 60px;
     }
 
     .card-signin {
@@ -227,21 +287,21 @@
         height: 90px;
     }
 
-span.navbar-toggler-icon{
-   font-size: 40px;
-}
+    span.navbar-toggler-icon{
+    font-size: 40px;
+    }
 
-#textMenu{
+    #textMenu{
     color: #FCFCFC;
     border-color:white;
     font-size: 40px;
     
-}
+    }
 
-a.nav-link{
+    a.nav-link{
     padding:20px;
     font-size: 40px;
     z-index: 1;
 
-}
+    }
 
