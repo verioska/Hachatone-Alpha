@@ -8,7 +8,9 @@
     }
 
 
+
     #job, #login, #events{
+
       display:none;
     }
 
@@ -306,7 +308,12 @@
     font-size: 40px;
     
 
+
     }
+
+
+   
+
     #color1,.color2 {
       background-color:#4E42B0 ;
     }
@@ -322,15 +329,37 @@
     } 
 
      
-    #bci{
-    margin-top: 2%;
-    width: 33%;
-    margin-left: 1%;
-    }
-    #title3{
-    font-size: 46px;
-    margin-left: 316px;
-    margin-top: -17%;
+
+#bci{
+  margin-top: 2%;
+  width: 33%;
+  margin-left: 1%;
+}
+#sb{
+  margin-top: 2%;
+  width: 33%;
+  margin-left: 1%;
+}
+#falabella{
+  margin-top: 2%;
+  width: 20%;
+  margin-left: 7%;
+
+}
+#favorito{
+  margin-left: 62%;
+  color:#1FE5BD;
+}
+#favorito2{
+  margin-left: 58%;
+  color: #1FE5BD;
+}
+
+#title3{
+  font-size: 46px;
+  margin-left: 316px;
+  margin-top: -17%;
+
 
     }
   #text3 {
@@ -342,6 +371,16 @@
   font-size: 270%;
   margin-left: 55%;
   color: #E5E5E5;
+}
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: white;
+  /* height: 505px; */
 }
 
 
