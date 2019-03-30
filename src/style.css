@@ -5,7 +5,7 @@
   
   body {
     background: #666666;
-    background: linear-gradient(to right, #2c7c76, #7adbd5);
+    background: linear-gradient(to right, #5E4FD6, rgb(101, 86, 218));
     }
   
   #loginBtn{
@@ -23,8 +23,8 @@
       
     }
     .card-body{
-      background-color: #63686E;
-      border:1px solid #63686E;
+      background-color: #5E4FD6;
+      border:1px solid #5E4FD6;
     }
 
     #text1, #text2{
