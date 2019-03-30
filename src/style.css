@@ -7,6 +7,9 @@
       background-color: #FCFCFC;
   }
 
+  #start{
+      display: none;
+  }
   /*pantalla de inicio*/
 
     #imgStart{
@@ -14,8 +17,8 @@
         height: 50%;
         background-color:  #FCFCFC;
 
-  
     }
+ 
 
     #textWelcome{
         font-size: 4.5rem; 
@@ -27,7 +30,7 @@
     #companyBtn{
          /* #4E42B0 */
         border: 2px solid #4E42B0;
-        border-radius: 20px; 
+        border-radius: 35px; 
         background-color: transparent;
 
         color: #63686E;
@@ -36,18 +39,18 @@
         #womanBtn{
 
         background-color: #4E42B0;
-        border-radius: 20px;
+        border-radius: 35px;
 
         color: #FFFFFF;
         }
 
         #companyBtn, #womanBtn{
-        width: 18rem;
-        height: 4rem;
+        width: 22rem;
+        height: 6rem;
         font-family: "Roboto";
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 25px;
         line-height: normal;
         text-align: center;
         letter-spacing: 0.0357143em;
@@ -55,38 +58,73 @@
         margin: 0 auto;
         margin-top: 2rem;
         }
-#job{
 
-  display: none;
-}
-#login {
-    display: none;
-    background: linear-gradient(to right, #5E4FD6, rgb(101, 86, 218));
-}
+
+
+
+    /*Login section*/
+    #login {
+    background-color: #5E4FD6;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+    }
+
+    #titleApp.card-title.text-center{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70PX;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 0.0357143em;
+        color: #D2E1FD;
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+
+    #inputEmail, #inputPassword{
+        width: 50rem;
+        height: 4.5rem;
+        background-color:#FCFCFC;
+        border-color: #1FE5BD;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
   
-  #loginBtn{
+    #loginBtn{
+        width: 50rem;
+        height: 4.5rem;    
       background-color: transparent;
       border-color: #1FE5BD;
-      color:white;
+      color:#FCFCFC;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 25px;
+      margin-top: 10%;
     }
 
     #loginBtn:hover{
         background-color: #1FE5BD;
     }
-    #inputEmail, #inputPassword{
-        border-color:#63686E; 
-        box-shadow: #495057;
-      
-    }
+
     .card-body{
       background-color: #4E42B0;
       border:1px solid #4E42B0;
     }
     
     #text1, #text2{
-      font-size: 15px;
+      font-size: 30px;
       display: inline;
       padding: 0.3rem;
+    }
+
+    #text1{
+        margin-left: 10%;
     }
 
     #text2{
@@ -190,6 +228,50 @@
     }
     /* menu  */
     
+
+    /* @media (max-width: 320px) {
+        #textWelcome{
+            font-size: 15px; 
+            text-align: center;
+        }
+
+        #companyBtn, #womanBtn{
+            width: 15rem;
+            height: 4rem;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 2rem;
+            font-size: 20px;
+            }
+
+    }
+
+    @media (max-width: 480px) {
+        #textWelcome{
+            font-size: 20px; 
+            text-align: center;
+        }
+
+        #companyBtn, #womanBtn{
+            width: 15rem;
+            height: 4rem;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 2rem;
+            font-size: 15px;
+            }
+        
+    }
+     */
+
+     /* @media (min-width: 480px) {
+
+     } */
+
+     
+
+
+#job{
     #color1,.color2 {
       background-color:#4E42B0 ;
   }
@@ -202,6 +284,10 @@
     border-color:white;
     font-size: 83px;
 }
+     
+   
+
+
 .card{
   margin-top: 10%;
 }   
@@ -210,3 +296,4 @@
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
 }
+
