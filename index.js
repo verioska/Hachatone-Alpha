@@ -8,13 +8,7 @@ function enter(){
     firebase.auth().createUserWithEmailAndPassword(email, password)
     .then(res => {
         const user = res;
-        console.log("a ver");
-        console.log("a ver");
-        console.log("a ver");
-        console.log(user);
-        console.log("a ver");
-        console.log("a ver");
-        console.log("a ver");
+           
     })
     .catch(function(error) {
         // Handle Errors here.
@@ -26,3 +20,17 @@ function enter(){
       });
     
 }
+
+document.getElementById("loginBtn").addEventListener("click", function(){
+
+    document.getElementById("start").style.display="none";
+    document.getElementById("login").style.display="none";
+    document.getElementById("job").style.display="block";
+
+})
+document.getElementById("womanBtn").addEventListener("click", function(){
+    document.getElementById("start").style.display="none";
+    document.getElementById("login").style.display="block";
+    document.getElementById("job").style.display="none"
+})
+
