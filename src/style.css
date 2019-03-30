@@ -202,5 +202,11 @@
     border-color:white;
     font-size: 83px;
 }
-     
-   
+.card{
+  margin-top: 10%;
+}   
+.card-body {
+  
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
