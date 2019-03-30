@@ -7,14 +7,16 @@
       background-color: #FCFCFC;
   }
 
+  #start{
+      display: none;
+  }
   /*pantalla de inicio*/
 
     #imgStart{
         width: 100%;
         height: 50%;
         background-color:  #FCFCFC;
-
-  
+    }
  
 
     #textWelcome{
@@ -27,7 +29,7 @@
     #companyBtn{
          /* #4E42B0 */
         border: 2px solid #4E42B0;
-        border-radius: 20px; 
+        border-radius: 35px; 
         background-color: transparent;
 
         color: #63686E;
@@ -36,18 +38,18 @@
         #womanBtn{
 
         background-color: #4E42B0;
-        border-radius: 20px;
+        border-radius: 35px;
 
         color: #FFFFFF;
         }
 
         #companyBtn, #womanBtn{
-        width: 18rem;
-        height: 4rem;
+        width: 22rem;
+        height: 6rem;
         font-family: "Roboto";
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 25px;
         line-height: normal;
         text-align: center;
         letter-spacing: 0.0357143em;
@@ -56,34 +58,69 @@
         margin-top: 2rem;
         }
 
-#login {
-    display: none;
-    background: linear-gradient(to right, #5E4FD6, rgb(101, 86, 218));
-}
+
+    /*Login section*/
+    #login {
+    background-color: #5E4FD6;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+    }
+
+    #titleApp.card-title.text-center{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70PX;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 0.0357143em;
+        color: #D2E1FD;
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+
+    #inputEmail, #inputPassword{
+        width: 50rem;
+        height: 4.5rem;
+        background-color:#FCFCFC;
+        border-color: #1FE5BD;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+    }
   
-  #loginBtn{
+    #loginBtn{
+        width: 50rem;
+        height: 4.5rem;    
       background-color: transparent;
       border-color: #1FE5BD;
-      color:white;
+      color:#FCFCFC;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 25px;
+      margin-top: 10%;
     }
 
     #loginBtn:hover{
         background-color: #1FE5BD;
     }
-    #inputEmail, #inputPassword{
-        border-color:#63686E; 
-        box-shadow: #495057;
-      
-    }
+
     .card-body{
       background-color: #4E42B0;
       border:1px solid #4E42B0;
     }
     
     #text1, #text2{
-      font-size: 15px;
+      font-size: 30px;
       display: inline;
       padding: 0.3rem;
+    }
+
+    #text1{
+        margin-left: 10%;
     }
 
     #text2{
@@ -186,88 +223,43 @@
     color: #777;
     }
     
-    
-     @media (min-width: 768px){
+    /* @media (max-width: 320px) {
+        #textWelcome{
+            font-size: 15px; 
+            text-align: center;
+        }
 
-      #titleApp {
-        color: #1FE5BD;
-        position: absolute;
-        width: 154px;
-        height: 71px;
-        left: 96px;
-        top: -47px;
-    
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 147px;
-        line-height: normal;
-        text-align: center;
-        letter-spacing: 0.0357143em;
-        margin-left: -92px;
-    }
-    #inputEmail {
-      width: 37rem;
-      height: 8rem;
+        #companyBtn, #womanBtn{
+            width: 15rem;
+            height: 4rem;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 2rem;
+            font-size: 20px;
+            }
 
-      margin-top: 130%;
-      margin-left: -26%;
-  }
-  #inputPassword{
-    width: 37rem;
-    height: 8rem;
-
-    margin-top: 7%;
-    margin-left: -26%;
-  }
- 
-      .col-md-7 {
-        flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-        margin-top: 58%;
-      }
-      .card.card-signin.my-5{
-        width: 41rem;
-        height: 49rem;
-        margin-left: -29%;
-      }
-      .card-signin .card-title {
-        margin-bottom: 2rem;
-        font-weight: 300;
-        font-size: 5.0rem;
-        margin-top: 8%;
-    }
-   
-  #text1{
-    font-size: 32px;
-    display: inline;
-    padding: 0.3rem;
-    margin-left: -19%;
-}
-#text2{
-  font-size: 37px;
-    display: inline;
-    padding: 0.3rem;
-}
-.form-label-group>label {
-  font-size: 37px;
-    margin-left: -22%;
-}
-.form-label-group input:not(:placeholder-shown)~label {
-  font-size: 27px;
-}
-#loginBtn {
-  background-color: transparent;
-  border-color: #1FE5BD;
-  color: white;
-  font-size: 139%;
-  text-align: center;
-  margin-left: -20%;
-  width: 37rem;
-  height: 6rem;
-  margin-top: 7%;
-  margin-left: -20%;
-}
     }
 
-   
+    @media (max-width: 480px) {
+        #textWelcome{
+            font-size: 20px; 
+            text-align: center;
+        }
+
+        #companyBtn, #womanBtn{
+            width: 15rem;
+            height: 4rem;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 2rem;
+            font-size: 15px;
+            }
+        
+    }
+     */
+
+     /* @media (min-width: 480px) {
+
+     } */
+
+     
