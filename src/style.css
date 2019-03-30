@@ -7,6 +7,10 @@
       background-color: #FCFCFC;
   }
 
+  #job, #login{
+      display:none;
+  }
+
   
   /*pantalla de inicio*/
 
@@ -17,7 +21,6 @@
 
     }
  
-
     #textWelcome{
         font-size: 4.5rem; 
         font-family: 'Rubik', sans-serif;
@@ -73,13 +76,14 @@
         font-family: "Roboto";
         font-style: normal;
         font-weight: 900;
-        font-size: 70PX;
+        font-size: 70px;
         line-height: normal;
         text-align: center;
         letter-spacing: 0.0357143em;
         color: #D2E1FD;
         padding-top: 25%;
         padding-bottom: 10%;
+        color:#1FE5BD;
     }
 
     #inputEmail, #inputPassword{
@@ -110,11 +114,6 @@
         background-color: #1FE5BD;
     }
 
-    .card-body{
-      background-color: #4E42B0;
-      border:1px solid #4E42B0;
-    }
-    
     #text1, #text2{
       font-size: 30px;
       display: inline;
@@ -128,10 +127,6 @@
     #text2{
       color:#1FE5BD; 
       
-    }
-
-    #titleApp{
-    color:#1FE5BD;
     }
 
     .card-signin {
@@ -226,75 +221,27 @@
     }
     /* menu  */
     
-
-    /* @media (max-width: 320px) {
-        #textWelcome{
-            font-size: 15px; 
-            text-align: center;
-        }
-
-        #companyBtn, #womanBtn{
-            width: 15rem;
-            height: 4rem;
-            justify-content: center;
-            margin: 0 auto;
-            margin-top: 2rem;
-            font-size: 20px;
-            }
-
+    #navbarTop{
+        background-color:#4E42B0;
+        width: 100%;
+        height: 90px;
     }
 
-    @media (max-width: 480px) {
-        #textWelcome{
-            font-size: 20px; 
-            text-align: center;
-        }
-
-        #companyBtn, #womanBtn{
-            width: 15rem;
-            height: 4rem;
-            justify-content: center;
-            margin: 0 auto;
-            margin-top: 2rem;
-            font-size: 15px;
-            }
-        
-    }
-     */
-
-     /* @media (min-width: 480px) {
-
-     } */
-
-     
-
-
-#job{
-    display:none;
+span.navbar-toggler-icon{
+   font-size: 40px;
 }
 
-    #color1, .color2 {
-      background-color:#4E42B0 ;
-  }
-  .fas.fa-search{
-    color: #FFFFFF;
-    font-size: 50px;
-  }
-  .navbar-dark .navbar-toggler {
-    color: #f8f9fa;
+#textMenu{
+    color: #FCFCFC;
     border-color:white;
-    font-size: 83px;
+    font-size: 40px;
+    
 }
-     
-   
 
+a.nav-link{
+    padding:20px;
+    font-size: 40px;
+    z-index: 1;
 
-.card{
-  margin-top: 10%;
-}   
-.card-body {
-  
-  background: #FFFFFF;
-  border: 1px solid #FFFFFF;
 }
 
