@@ -9,11 +9,23 @@
         crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
         
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCsPpC40y4yU80vFZIczKBlJhzG-NxcMgc",
+            authDomain: "alpha-7d3c0.firebaseapp.com",
+            databaseURL: "https://alpha-7d3c0.firebaseio.com",
+            projectId: "alpha-7d3c0",
+            storageBucket: "alpha-7d3c0.appspot.com",
+            messagingSenderId: "569337311619"
+          };
+          firebase.initializeApp(config);
+        </script>
     </head>
 
     <body>
-
-
+      
         <section id="start">
 
 
@@ -36,36 +48,42 @@
 
         </section>
 
+
         <section id="login">
 
                 <div class="container">
                         <div class="row">
                           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                            <div class="card card-signin my-5">
-                              <div class="card-body">
-                                <h5 id="titleApp" class="card-title text-center">Lidera Mujer</h5>
+                           
+                              
+                                <h5 id="titleApp" class="card-title text-center">Lidera<br> Mujer</h5>
                                 <form class="form-signin">
-                                  <div class="form-label-group">
-                                    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required autofocus>
-                                    <label or="inputEmail">Correo electrónico</label>
-                                  </div>
-                    
-                                  <div class="form-label-group">
-                                    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
-                                    <label for="inputPassword">Contraseña</label>
-                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="form-label-group">
+                                      <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required autofocus>
+                                      <!-- <label or="inputEmail">Correo electrónico</label> -->
+                                    </div>
+                      
+                                    <div class="form-label-group">
+                                      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                                      <!-- <label for="inputPassword">Contraseña</label> -->
+                                    </div>
+                                </div>
                                   <hr class="my-4">
                     
                                   <div class="mb-3">
                                     <h4 id="text1">¿Eres nueva? <a href="" id="text2">Regístrate aquí</a></h4>
                                   </div>
-                                  <button id="loginBtn"class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">INICIAR SESIÓN</button>
+                                  
+                                  <hr class="my-4">
+                                  
+                                  <button onclick="enter()" id="loginBtn"class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">INICIAR SESIÓN</button>
                                   
                                   
                                   
                                 </form>
-                              </div>
-                            </div>
+                              
+                            
                           </div>
                         </div>
                       </div>
@@ -73,7 +91,7 @@
                       
         </section>
 
-
+  
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
         crossorigin="anonymous"></script>
@@ -84,6 +102,6 @@
 
         
         <script src="index.js"></script>
-
+        
     </body>
 </html>
