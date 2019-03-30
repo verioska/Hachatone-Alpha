@@ -1,107 +1,106 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Alpha</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-        crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-        
-        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-        <script>
-          // Initialize Firebase
-          var config = {
+
+<head>
+    <meta charset="utf-8" />
+    <title>Alpha</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
             apiKey: "AIzaSyCsPpC40y4yU80vFZIczKBlJhzG-NxcMgc",
             authDomain: "alpha-7d3c0.firebaseapp.com",
             databaseURL: "https://alpha-7d3c0.firebaseio.com",
             projectId: "alpha-7d3c0",
             storageBucket: "alpha-7d3c0.appspot.com",
             messagingSenderId: "569337311619"
-          };
-          firebase.initializeApp(config);
-        </script>
-    </head>
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
 
-    <body>
-      
-        <section id="start">
+<body>
+
+    <section id="start">
 
 
-                        <img id="imgStart" src="../src/img/imgStart.png" alt="imagen comienzo">
-                        <h1 id="textWelcome">En Lidera Mujer el talento</br> femenino se busca</br> e inspira</h1>
+        <img id="imgStart" src="../src/img/imgStart.png" alt="imagen comienzo">
+        <h1 id="textWelcome">En Lidera Mujer el talento</br> femenino se busca</br> e inspira</h1>
 
-                        <div class="container">
-                            <div class="row">
+        <div class="container">
+            <div class="row">
 
+                <div class="col-sm-12">
+                    <button id="companyBtn" class="btn btn-lg btn-primary btn-block text-uppercase"
+                        type="submit">EMPRESA</button>
+                </div>
+                <div class="col-sm-12">
+                    <button id="womanBtn" class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">MUJER
+                        PROFESIONAL</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section id="login">
+
+        
+                    <h5 id="titleApp" class="card-title text-center">LIDERA<br>MUJER</h5>
+                    <form class="form-signin">
+                        
                         <div class="col-sm-12">
-                        <button id="companyBtn"class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">EMPRESA</button>
+                            <div class="form-label-group">
+
+                                <input type="email" id="inputEmail" class="form-control"
+                                    placeholder="Correo electrónico" required autofocus>
+                                    
+                            </div>
+
+                            <div class="form-label-group">
+                                <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña"
+                                    required>
+                                
+                            </div>
                         </div>
-                        <div class="col-sm-12">
-                        <button id="womanBtn"class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">MUJER PROFESIONAL</button>
-                    </div>       
+                        
+
+                        <div class="mb-3">
+                            <h4 id="text1">¿Eres nueva? <a href="" id="text2">Regístrate aquí</a></h4>
                         </div>
-                        </div>  
-                  
-                
-
-        </section>
-
-
-        <section id="login">
-
-                <div class="container">
-                        <div class="row">
-                          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                           
-                              
-                                <h5 id="titleApp" class="card-title text-center">Lidera<br> Mujer</h5>
-                                <form class="form-signin">
-                                  <div class="col-sm-12">
-                                    <div class="form-label-group">
-                                      <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required autofocus>
-                                      <!-- <label or="inputEmail">Correo electrónico</label> -->
-                                    </div>
-                      
-                                    <div class="form-label-group">
-                                      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
-                                      <!-- <label for="inputPassword">Contraseña</label> -->
-                                    </div>
-                                </div>
-                                  <hr class="my-4">
-                    
-                                  <div class="mb-3">
-                                    <h4 id="text1">¿Eres nueva? <a href="" id="text2">Regístrate aquí</a></h4>
-                                  </div>
-                                  
-                                  <hr class="my-4">
-                                  
-                                  <button onclick="enter()" id="loginBtn"class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">INICIAR SESIÓN</button>
-                                  
-                                  
-                                  
-                                </form>
-                              
-                            
-                          </div>
-                        </div>
-                      </div>
 
                       
-        </section>
 
-  
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+                        <button onclick="enter()" id="loginBtn" class="btn btn-lg btn-primary btn-block text-uppercase"
+                            type="submit">INICIAR SESIÓN</button>
+
+
+
+                    </form>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" c
+        rossorigin="anonymous"></script>
 
-        
-        <script src="index.js"></script>
-        
-    </body>
+
+    <script src="index.js"></script>
+
+</body>
+
 </html>
