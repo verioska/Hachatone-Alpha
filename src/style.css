@@ -2,11 +2,61 @@
     --input-padding-x: 1.5rem;
     --input-padding-y: .75rem;
 }
-  
-  body {
-    background: #666666;
-    background: linear-gradient(to right, #5E4FD6, rgb(101, 86, 218));
+  #body{
+      background-color: #FCFCFC;
+  }
+
+  /*pantalla de inicio*/
+
+    #imgStart{
+        width: 100%;
+        height: 50%;
+        background-color:  #FCFCFC;
     }
+
+    #textWelcome{
+        font-size: 4.5rem; 
+        font-family: 'Rubik', sans-serif;
+        color:#A8B8F6;
+        text-align: center;
+    }
+
+    #companyBtn{
+         /* #4E42B0 */
+        border: 2px solid #4E42B0;
+        border-radius: 20px; 
+        background-color: transparent;
+
+        color: #63686E;
+        } 
+
+        #womanBtn{
+
+        background-color: #4E42B0;
+        border-radius: 20px;
+
+        color: #FFFFFF;
+        }
+
+        #companyBtn, #womanBtn{
+        width: 18rem;
+        height: 4rem;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 0.0357143em;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        }
+
+#login {
+    display: none;
+    background: linear-gradient(to right, #5E4FD6, rgb(101, 86, 218));
+}
   
   #loginBtn{
       background-color: transparent;
