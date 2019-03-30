@@ -2,28 +2,33 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <title>Alpha</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
 
-      apiKey: "AIzaSyCsPpC40y4yU80vFZIczKBlJhzG-NxcMgc",
-      authDomain: "alpha-7d3c0.firebaseapp.com",
-      databaseURL: "https://alpha-7d3c0.firebaseio.com",
-      projectId: "alpha-7d3c0",
-      storageBucket: "alpha-7d3c0.appspot.com",
-      messagingSenderId: "569337311619"
-    };
-    firebase.initializeApp(config);
-  </script>
+    <meta charset="utf-8" />
+    <title>Alpha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+        crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+
+            apiKey: "AIzaSyCsPpC40y4yU80vFZIczKBlJhzG-NxcMgc",
+            authDomain: "alpha-7d3c0.firebaseapp.com",
+            databaseURL: "https://alpha-7d3c0.firebaseio.com",
+            projectId: "alpha-7d3c0",
+            storageBucket: "alpha-7d3c0.appspot.com",
+            messagingSenderId: "569337311619"
+        };
+        firebase.initializeApp(config);
+    </script>
+
 </head>
 
 
@@ -113,7 +118,7 @@
             <li onclick="eventsId()" class="nav-item">
               <a  class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Eventos</a>
             </li>
-
+            
             <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comunidad</a>
             </li>
@@ -158,10 +163,61 @@
 
   </section>
 
-  <section id="detailOfert">
 
-  </section>
 
+    <section id="detailOfert">
+            <nav id="navbarTop" class="navbar navbar-expand-lg navbar-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h2 id="textMenu">Detalle de la Oferta</h2>
+        
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Ofertas Laborales<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ranking Empresas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Eventos</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comunidad</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+        
+                </nav>
+
+                
+                <img id="detalleImg"src="../src/img/detalleImg.png" alt="">
+
+                <h2 id="charge">Cargo: Desarrolladora Front End</h2>
+
+                <p id="detail">Buscamos a un Desarrolladora Front-end para la</br></br>
+                    gerencia de Falabella.com Corporativo, cuya</br></br>
+                    responsabilidad será desarrollar mejoras e </br></br>
+                    implementar funcionalidades front-end para el sitio</br></br>
+                    Falabella.com.</br></p>
+
+                    
+                    <a id="moreInfo" href="">VER MÁS INFORMACIÓN</a>
+
+                    <button id="team" type="button">¡Quiero ser parte del equipo!</button>
+                
+        
+
+
+    
   <section id="events">
     <div>
       <nav id="navbarTop" class="navbar navbar-expand-lg navbar-light">
@@ -195,6 +251,7 @@
       </nav>
     </div>
   </section>
+
 
 
 
