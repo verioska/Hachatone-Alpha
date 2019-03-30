@@ -53,8 +53,19 @@ function eventsId() {
     document.getElementById("start").style.display="none";
     document.getElementById("login").style.display="none";
     document.getElementById("job").style.display="none"
+    document.getElementById("detailOfert").style.display="none";
     document.getElementById("events").style.display="block";
-    alert("hola")
+   
+}
+
+function comunity(){
+    document.getElementById("start").style.display="none";
+    document.getElementById("login").style.display="none";
+    document.getElementById("job").style.display="none"
+    document.getElementById("events").style.display="none";
+    document.getElementById("detailOfert").style.display="none";
+    document.getElementById("comunity").style.display="block";
+
 }
 
 

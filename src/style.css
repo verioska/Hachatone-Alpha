@@ -9,13 +9,19 @@
     }
 
 
+    #job, #login, #events, #detailOfert, #comunity{
+
+      display:none;
+    }
+
+
+
+
   
   /*pantalla de inicio*/
 
 
-#job, #login,#detailOfert,#events{
-  display:none;
-}
+
 
 #imgStart{
   width: 100%;
