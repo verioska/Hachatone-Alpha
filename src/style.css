@@ -7,9 +7,7 @@
       background-color: #FCFCFC;
   }
 
-  #start{
-      display: none;
-  }
+  
   /*pantalla de inicio*/
 
     #imgStart{
@@ -272,7 +270,10 @@
 
 
 #job{
-    #color1,.color2 {
+    display:none;
+}
+
+    #color1, .color2 {
       background-color:#4E42B0 ;
   }
   .fas.fa-search{
