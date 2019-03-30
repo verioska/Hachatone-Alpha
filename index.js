@@ -21,16 +21,33 @@ function enter(){
     
 }
 
+function ofert(){
+
+    alert("hola")
+}
+
+
 document.getElementById("loginBtn").addEventListener("click", function(){
 
     document.getElementById("start").style.display="none";
     document.getElementById("login").style.display="none";
     document.getElementById("job").style.display="block";
+    document.getElementById("events").style.display="none";
 
 })
 document.getElementById("womanBtn").addEventListener("click", function(){
     document.getElementById("start").style.display="none";
     document.getElementById("login").style.display="block";
     document.getElementById("job").style.display="none"
+    document.getElementById("events").style.display="none";
 })
+
+function eventsId() {
+    document.getElementById("start").style.display="none";
+    document.getElementById("login").style.display="none";
+    document.getElementById("job").style.display="none"
+    document.getElementById("events").style.display="block";
+    
+}
+
 

@@ -8,7 +8,7 @@
   }
 
 
-  #job, #login{
+  #job, #login,#events{
       display:none;
 
   }
@@ -244,11 +244,10 @@ span.navbar-toggler-icon{
 a.nav-link{
     padding:20px;
     font-size: 40px;
-    z-index: 1;
+    
 
-
+}
    
- 
     #color1,.color2 {
       background-color:#4E42B0 ;
     }
@@ -267,6 +266,26 @@ a.nav-link{
   width: 33%;
   margin-left: 1%;
 }
+#sb{
+  margin-top: 2%;
+  width: 33%;
+  margin-left: 1%;
+}
+#falabella{
+  margin-top: 2%;
+  width: 20%;
+  margin-left: 7%;
+
+}
+#favorito{
+  margin-left: 62%;
+  color:#1FE5BD;
+}
+#favorito2{
+  margin-left: 58%;
+  color: #1FE5BD;
+}
+
 #title3{
   font-size: 46px;
   margin-left: 316px;
@@ -282,6 +301,16 @@ a.nav-link{
   font-size: 270%;
   margin-left: 55%;
   color: #E5E5E5;
+}
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: white;
+  /* height: 505px; */
 }
 
 
