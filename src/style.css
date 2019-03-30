@@ -3,9 +3,15 @@
   --input-padding-y: .75rem;
 }
 
-#body{
-  background-color: #FCFCFC;
-}
+
+    #body{
+      background-color: #FCFCFC;
+    }
+
+
+  
+  /*pantalla de inicio*/
+
 
 #job, #login,#detailOfert,#events{
   display:none;
@@ -175,6 +181,7 @@
         margin-top: 20px;
         margin-left: 60px;
     }
+    /*fin seccion*/
 
     .card-signin {
     border: 0;
@@ -289,13 +296,7 @@
     a.nav-link{
     padding:20px;
     font-size: 40px;
-    
-
-
     }
-
-
-   
 
     #color1,.color2 {
       background-color:#4E42B0 ;
@@ -313,16 +314,16 @@
 
      
 
-#bci{
+  #bci{
+   margin-top: 2%;
+   width: 33%;
+   margin-left: 1%;
+}
+  #sb{
   margin-top: 2%;
   width: 33%;
   margin-left: 1%;
-}
-#sb{
-  margin-top: 2%;
-  width: 33%;
-  margin-left: 1%;
-}
+    }
 #falabella{
   margin-top: 2%;
   width: 20%;
@@ -363,7 +364,14 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: white;
+  width: 50%;
   /* height: 505px; */
+}
+
+/*seccion eventos*/
+
+#imgEvents{
+    width: 100%;
 }
 
 
